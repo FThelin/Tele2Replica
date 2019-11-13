@@ -1,0 +1,131 @@
+/*** Top Nav bar ***/
+
+.top-nav-bar {
+    height: 42.4px;
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;    
+}
+
+.top-nav-bar div {
+    height: 42.4px;
+    width: 78.15px;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;    
+}
+
+.top-nav-bar a {    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13.5px;    
+}
+
+.orange-text {
+    color: #EB7300;    
+}
+
+.border-right {
+    border-right: 1px solid #3b3b3b;
+}
+
+/*** Bottom Nav bar ***/
+
+.nav-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container nav {
+    height: 80px;
+    max-width: 1200px; 
+    display: flex;
+}
+
+.navBarItems {
+    border-right: 1px solid lightgray;
+}
+
+.navBarItems:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 8rem;
+    border-right: 1px solid lightgray;
+}
+
+.logo img {
+    width: 80%;
+}
+
+/*** Dropdown nav items ***/    
+
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex: 1 0 7rem;
+}
+
+.dropdown-item i {
+    margin-left: 5px;
+}
+
+/*** SearchBox ***/
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    flex: 1 1 23rem;
+}
+
+.searchBox input {
+    float: left;
+    height: 30px;
+    font-size: 17px;
+    color: gray;
+    background-color: rgb(241, 241, 241);
+    width: 80%;
+    text-indent: 10px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchBox i {
+    float: right;
+    color: #EB7300;
+    font-size: 20px;    
+}
+
+/*** Nav buttons ***/
+
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 5rem;
+}
+
+.nav-button i {
+    font-size: 24px;
+}
+
+.nav-button p {
+    margin: 5px 0 10px 0;
+    font-size: 12px;
+    visibility: visible;
+}

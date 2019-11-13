@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color:black;
+}
+
+a {
+    color: white;
+}
+
+.show-tablet {
+    display: none;
+}
+
+.show-mobile {
+    display: none;
+}
+
+/*** Fixed lightbulb support button ***/
+.lightbulb-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 12px;
+    bottom: 20px;
+}
+
+.lightbulb-button img {
+    width: 100%;
+}

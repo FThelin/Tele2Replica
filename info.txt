@@ -1,0 +1,49 @@
+Inlämning 1 - Fredrik Thelin & Simon Beijer
+
+Vi valde att försöka återskapa https://www.tele2.se
+
+Vi har skalat av sidan och sparat 3 sektioner. 
+En header, en main sektion samt footer. 
+
+Vi valde denna sida för att vi såg direkt att det skulle bli en
+stor utmaning att göra headern. Den är indelad i 2 sektioner vertikalt
+och på den undre delen är det 4 olika sektioner med olika typer av navigation.
+
+
+Headern:
+Undre delen består av en logga, två dropdown menyer, ett sökfält samt 3 mindre boxar/knappar med ikoner.
+Här har vi återskapat layouten från orginal sidan och även fått det responsivt på samma sätt med rätt sektion
+som kan förminskas eller förstoras när sidan blir mindre. 
+
+Vid 1023px bred, eller surfplattas storlek, försvinner sökfältet och blir istället en av de nu 4 boxarna med ikoner.
+Texten försvinner i dessa boxar så den nu endast innehåller ikoner. 
+
+vid 770px, mobil storlek, försvinner den övre delen av headern, de båda dropdown-menyerna, 
+samt kart-ikonen och lagras i en hamburgare-ikon istället. 
+
+
+Main-sektionen:
+Bakgrundsbilden ändras vid 1023px samt 770px. Texten flyttas runt för att spegla orginalsidan.
+
+
+Footern:
+I originalet är footern helt svart vilket inte ser så bra ut om man har en svart main. 
+
+Vi valde därför att göra footern i samma blå som en nedre del i originalet för att man 
+ska se skillnad mellan footer och main delen. 
+
+Vi byggde detta med fyra divar för att efterlikna originalet som är fyra rader med länkar.
+Dom placerades i kolumner under varandra och med padding blev det mer likt originalet. 
+
+Nästa steg lade vi till ikoner från font-awesome för översta diven och socialamedier.
+Divarna under första har en mörkare färg på länkarna sedan ligger en vit hover effekt över.
+
+Footern består även av några responsiva delar främst vid 770 px.
+
+När footern blir mindre än 770 så läggs första diven i kolumner och hamnar i en drop down meny och får en border.
+
+I resterande delarna av footern så försvinner texten och ersätts med ikoner och även här en drop down meny.
+
+
+
+

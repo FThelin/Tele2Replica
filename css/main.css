@@ -1,0 +1,63 @@
+/*** Main Section ***/
+
+.wrapper-main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg1500x858.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 56px;
+}
+
+main p {
+    color: white;
+    font-size: 16px;
+    padding-top: 24px;
+}
+
+main .main-buttons {
+    padding-top: 24px;
+}
+
+main button {
+    width: 223px;
+    height: 57px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+}
+
+main button:first-child {
+    background-color: white;
+}
+
+main button:first-child:focus {
+    outline: none;
+}
+
+main button:first-child:hover {
+    background-color:#E7E7E7;
+    cursor: pointer;
+}
+
+main button:nth-child(2) {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    color: white;
+}
